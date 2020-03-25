@@ -1,14 +1,19 @@
 import React from "react";
 
 
-function App(){
+function App() {
 
-return(
+    return (
 
 
-hello
+        <div className="App">
+            <Wrapper>
+                <Header />
+                <Main />
+            </Wrapper>
+        </div>
 
-);
+    );
 }
 
 
