@@ -1,0 +1,12 @@
+.styleForHeader {
+    padding: 20px;
+    color: #0a0214;
+    background-color: rgb(9, 217, 224);
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 4px solid rgb(21, 103, 226);
+    border-top: 4px solid rgb(21, 103, 226);
+    border-left: 4px solid rgb(21, 103, 226);
+    border-right: 4px solid rgb(21, 103, 226);
+    text-align: center;
+}
