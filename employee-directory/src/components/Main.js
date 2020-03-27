@@ -6,7 +6,7 @@ const Main = () => {
   //initilze the state 
   const [state, setstate] = useState({
 
-    header: [{ name: "Image", width: "20px" }, { name: "name", width: "20px" }, { name: "phone", width: "20px" }, { name: "email", width: "20px" }],
+    header: [{ name: "Image", width: "20px" }, { name: "First Name", width: "20px" }, { name: "Last Name", width: "20px" }, { name: "phone", width: "20px" }, { name: "email", width: "20px" }],
     employees: [],
     searchByName: []
   });
@@ -70,7 +70,8 @@ const Main = () => {
                     <td data-th="Image" > <img src={picture.medium}
                       alt={"image of" + name.first} />
                     </td>
-                    <td data-th="Name" > {name.first} {name.last} </td>
+                    <td data-th="Name" > {name.first} </td>
+                    <td data-th="Name" > {name.last} </td>
 
                     <td data-th="Phone" > {phone}   </td>
                     <td data-th="Email" > {email}   </td>
