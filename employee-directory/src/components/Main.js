@@ -27,6 +27,16 @@ useEffect(() => {
 
 
 
+const handlNameSerach = event => {
+  const filter = event.target.value;
+  const filteredList = state.employees.filter(seerchName => {
+  if((seerchName.name.first.toLowerCase()).indexOf(filter.toLowerCase()) !== -1){
+    return seerchName
+  };
+  });
+  
+  setstate({ ...state, searchByName: filteredList });
+};
 
 
 
