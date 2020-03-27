@@ -10,4 +10,4 @@ using activity 23 from unit 19 as a example for API call
 
 
 
-##filter by name 
+##filter by the first name of the employees
