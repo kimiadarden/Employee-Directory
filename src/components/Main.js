@@ -24,6 +24,7 @@ const Main = () => {
         searchByName: results.data.results
       });
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handlNameSerach = event => {
@@ -34,7 +35,9 @@ const Main = () => {
       ) {
         return seerchName;
       }
-    });
+     return false;
+    }
+    );
 
     setstate({ ...state, searchByName: filteredList });
   };
