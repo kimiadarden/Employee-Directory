@@ -1,6 +1,5 @@
 # Employee-Directory
 
-heroku deployed link :   https://pure-reaches-34018.herokuapp.com/
 
 This application provides a table of randomly generated employees list to the user. Users can refine their search by first/last name of the employees.
 
